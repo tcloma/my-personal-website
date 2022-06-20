@@ -1,5 +1,5 @@
 # My Personal Website
-Catto Petto is a simple JavaScript game made for the final project of Flariron School's Prework Course
+Catto Petto is a simple 2-player JavaScript game made for the final project of Flariron School's Prework Course
 
 ## Features
 - Control / movement using the left and right arrow keys (adopted from the moving element JavaScript lab)

@@ -23,7 +23,7 @@ body {
 
 .header {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -41,13 +41,13 @@ body {
 }
 
 #value {
-  font-size: 50px;
+  font-size: 70px;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 #catContainer {
   position: absolute;
-  top: 70%;
+  top: 80%;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
@@ -56,4 +56,16 @@ body {
 #catContainer img{
   width: 300px;
   height: auto;
+}
+
+.btn {
+  background-color: transparent;
+  color: #ffffff; 
+  border-color: #ffffff;
+  border-block-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
 }
