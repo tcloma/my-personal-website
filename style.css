@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.header {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.header h1{
+  font-size: 50px;
+  text-shadow: 0 0 3px #FA9C1B, 0 0 5px #FA9C1B;
+}
+
+.header p {
+  font-size: 15px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+#value {
+  font-size: 50px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+#catContainer {
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+#catContainer img{
+  width: 300px;
+  height: auto;
+}
