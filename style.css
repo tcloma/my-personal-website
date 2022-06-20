@@ -23,7 +23,7 @@ body {
 
 .header {
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -40,6 +40,11 @@ body {
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
+.header h2 {
+  font-size: 18px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
 #value {
   font-size: 70px;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
@@ -47,7 +52,7 @@ body {
 
 #catContainer {
   position: absolute;
-  top: 80%;
+  top: 83%;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
