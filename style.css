@@ -59,12 +59,6 @@ body {
 }
 
 .btn {
-  background-color: transparent;
-  color: #ffffff; 
-  border-color: #ffffff;
-  border-block-style: solid;
-  border-right-style: solid;
-  border-left-style: solid;
   font-size: 15px;
   padding: 5px 10px 5px 10px;
   text-decoration: none;
